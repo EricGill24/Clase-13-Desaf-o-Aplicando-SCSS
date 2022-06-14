@@ -1,0 +1,34 @@
+body {
+  background-color: #40f7ba; }
+
+header {
+  background-color: #c7fae9; }
+  header .nav {
+    width: 80%;
+    background-color: #5eb195;
+    margin: 10px auto; }
+    header .nav .menu {
+      list-style-type: none;
+      padding: 10px;
+      display: flex;
+      justify-content: center; }
+      header .nav .menu .boton {
+        padding: 10px;
+        margin: 10px auto; }
+        header .nav .menu .boton:hover {
+          background-color: #0ebe84; }
+        header .nav .menu .boton a {
+          text-decoration: none;
+          color: black; }
+          header .nav .menu .boton a:hover {
+            color: green;
+            font-weight: bold; }
+
+main h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000; }
+
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5; }
